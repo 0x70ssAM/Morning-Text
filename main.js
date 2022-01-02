@@ -29,6 +29,16 @@ let hugs = [
     './hugs/25.jpg',
     './hugs/26.jpg',
     './hugs/27.jpg',
+    './hugs/28.jpg',
+    './hugs/29.jpg',
+    './hugs/30.jpg',
+    './hugs/31.jpg',
+    './hugs/32.jpg',
+    './hugs/33.jpg',
+    './hugs/34.jpg',
+    './hugs/35.jpg',
+    './hugs/36.jpg',
+    './hugs/37.jpg',
 ];
 
 let shuffle = () => {
@@ -71,12 +81,12 @@ document.getElementById('m3lshBtn').addEventListener('click', () => {
 
 
 let changeHug = () => {
-    if(takenHugs === 5){
+    if(takenHugs === 10){
         document.getElementById('block_hugs').style.display = 'flex';
         document.getElementById('m3lsh_pic').style.display = 'none';
         document.getElementById('hugAgain').innerText = 'آخر واحد يسطا بالله عليك';
     }
-    if(takenHugs === 6){
+    if(takenHugs === 11){
         document.getElementById('block_hugs').style.display = 'none';
         document.getElementById('m3lsh_pic').style.display = 'inline';
         document.getElementById('hugAgain').style.display = 'none';
